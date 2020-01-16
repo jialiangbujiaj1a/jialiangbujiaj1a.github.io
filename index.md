@@ -1,3 +1,4 @@
+#加量不加价
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/jialiangbujiaj1a/jialiangbujiaj1a.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
