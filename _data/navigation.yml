@@ -50,7 +50,7 @@ header:
     url: /about.html
 
 docs-zh:
-- title:      导航示例
+- title:      导航
   children:
   - title: Welcome
     url: https://jialiangbujiaj1a.github.io/2018/07/01/welcome.html
