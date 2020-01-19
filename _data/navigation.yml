@@ -58,3 +58,5 @@ docs-zh:
     url: https://jialiangbujiaj1a.github.io/2018/06/01/header-image.html
   - title:  Markdown(.md)语法
     url: https://jialiangbujiaj1a.github.io/2020/01/17/Markdown语法.html
+  - title:  重试机制Retry的使用
+    url: https://jialiangbujiaj1a.github.io/2020/01/19/重试机制Retry的使用.html
