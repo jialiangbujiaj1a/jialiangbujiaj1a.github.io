@@ -62,3 +62,5 @@ docs-zh:
     url: https://jialiangbujiaj1a.github.io/2020/01/19/重试机制Retry的使用.html
   - title:  ServletContextListener使用
     url: https://jialiangbujiaj1a.github.io/2020/01/19/ServletContextListener使用.html
+  - title:  Stream API
+    url: https://jialiangbujiaj1a.github.io/2020/01/19/Stream API.html
