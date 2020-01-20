@@ -64,3 +64,5 @@ docs-zh:
     url: https://jialiangbujiaj1a.github.io/2020/01/19/ServletContextListener使用.html
   - title:  Stream API
     url: https://jialiangbujiaj1a.github.io/2020/01/19/StreamAPI.html
+  - title:  动态代理
+    url: https://jialiangbujiaj1a.github.io/2020/01/20/动态代理.html
