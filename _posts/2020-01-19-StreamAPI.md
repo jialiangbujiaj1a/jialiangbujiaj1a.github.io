@@ -1,6 +1,6 @@
 ---
 title: Stream API
-tags: Stream API
+tags: Java8 Stream
 sidebar: 
   nav: docs-zh
 ---
