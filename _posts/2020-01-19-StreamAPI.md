@@ -73,7 +73,7 @@ Map<Long, User> userMap = userList.stream()
     .collect(Collectors.toMap(user -> user.getId(), user -> user));
 ```
 ### 例子
-给定["1","2","bilibili","of","codesheep","5","at","BILIBILI","codesheep","23","CHEERS","6"] 找出所有 长度>=5的字符串，并且忽略大小写、去除重复字符串，然后按字母排序，最后用“爱心❤”连接成一个字符串输出！
+#### 给定["1","2","bilibili","of","codesheep","5","at","BILIBILI","codesheep","23","CHEERS","6"] 找出所有 长度>=5的字符串，并且忽略大小写、去除重复字符串，然后按字母排序，最后用“爱心❤”连接成一个字符串输出！
 ```
 String result = list.stream()// 首先将列表转化为Stream流
          .filter( i ->!isNum(i))// 首先筛选出字母型字符串
