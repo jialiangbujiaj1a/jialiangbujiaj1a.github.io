@@ -23,12 +23,14 @@ ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
 
 ```
 jar包和Dockerfile文件放在同一目录下
-[![docker](https://jialiangbujiaj1a.github.io/imgs/docker/Docker部署.png)]
+
+![docker](https://jialiangbujiaj1a.github.io/imgs/docker/Docker部署.png)
 
 ### 制作镜像
+
 docker build -t eureka .
 
-[![docker](https://jialiangbujiaj1a.github.io/imgs/docker/dockerbuild.png)]
+![docker](https://jialiangbujiaj1a.github.io/imgs/docker/dockerbuild.png)
 
 ### 启动容器
 
