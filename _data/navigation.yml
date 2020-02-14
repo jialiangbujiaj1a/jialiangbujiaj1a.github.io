@@ -80,3 +80,5 @@ docs-zh:
     url: https://jialiangbujiaj1a.github.io/2020/02/11/Docker部署SpringBoot项目.html
   - title:  Nginx
     url: https://jialiangbujiaj1a.github.io/2020/02/12/Nginx.html
+  - title:  SSO单点登录
+    url: https://jialiangbujiaj1a.github.io/2020/02/14/SSO单点登录.html
