@@ -1,3 +1,4 @@
+# 头部导航栏
 header:
   - titles:
       # @start locale config
@@ -49,6 +50,7 @@ header:
       # @end locale config
     url: /about.html
 
+#侧边导航栏
 docs-zh:
 - title:      导航
   children:
