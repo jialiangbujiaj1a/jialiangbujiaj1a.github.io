@@ -88,3 +88,5 @@ docs-zh:
     url: https://jialiangbujiaj1a.github.io/2020/02/18/观察者模式.html
   - title:  线程池
     url: https://jialiangbujiaj1a.github.io/2020/02/20/线程池.html
+  - title:  Synchronized和Lock
+    url: https://jialiangbujiaj1a.github.io/2020/02/21/Synchronized和Lock.html
