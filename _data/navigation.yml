@@ -90,3 +90,5 @@ docs-zh:
     url: https://jialiangbujiaj1a.github.io/2020/02/20/线程池.html
   - title:  Synchronized和Lock
     url: https://jialiangbujiaj1a.github.io/2020/02/21/Synchronized和Lock.html
+  - title:  JAVA并发之CountDownLatch、CyclicBarrier和Semaphor
+    url: https://jialiangbujiaj1a.github.io/2020/02/24/JAVA并发之CountDownLatch、CyclicBarrier和Semaphor.html
