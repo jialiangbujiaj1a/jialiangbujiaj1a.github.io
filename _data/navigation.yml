@@ -94,3 +94,5 @@ docs-zh:
     url: https://jialiangbujiaj1a.github.io/2020/02/24/JAVA并发之CountDownLatch、CyclicBarrier和Semaphor.html
   - title:  消息队列
     url: https://jialiangbujiaj1a.github.io/2020/02/26/消息队列.html
+  - title:  Redis
+    url: https://jialiangbujiaj1a.github.io/2020/02/28/Redis.html
