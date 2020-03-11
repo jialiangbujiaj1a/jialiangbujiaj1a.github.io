@@ -98,3 +98,5 @@ docs-zh:
     url: https://jialiangbujiaj1a.github.io/2020/02/28/Redis.html
   - title:  HashMap
     url: https://jialiangbujiaj1a.github.io/2020/03/10/HashMap.html
+  - title:  Synchronized原理
+    url: https://jialiangbujiaj1a.github.io/2020/03/11/Synchronized原理.html
