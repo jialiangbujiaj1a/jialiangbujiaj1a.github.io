@@ -54,6 +54,26 @@ header:
 docs-zh:
 - title:      导航
   children:
+    - title: Welcome
+      url: https://jialiangbujiaj1a.github.io/2018/07/01/welcome.html
+- title:      导航
+  children:
+    - title: Welcome
+      url: https://jialiangbujiaj1a.github.io/2018/07/01/welcome.html
+- title:      导航
+  children:
+    - title: Welcome
+      url: https://jialiangbujiaj1a.github.io/2018/07/01/welcome.html
+- title:      导航
+  children:
+    - title: Welcome
+      url: https://jialiangbujiaj1a.github.io/2018/07/01/welcome.html
+- title:      导航
+  children:
+    - title: Welcome
+      url: https://jialiangbujiaj1a.github.io/2018/07/01/welcome.html
+- title:      导航
+  children:
   - title: Welcome
     url: https://jialiangbujiaj1a.github.io/2018/07/01/welcome.html
   - title: Post with Header Image
