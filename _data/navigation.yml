@@ -108,3 +108,5 @@ docs-zh:
     url: https://jialiangbujiaj1a.github.io/2020/03/11/AQS.html
   - title:  Java内存模型
     url: https://jialiangbujiaj1a.github.io/2020/03/12/Java内存模型.html
+  - title:  Java并发之ThreadLocal
+    url: https://jialiangbujiaj1a.github.io/2020/08/27/Java并发之ThreadLocal.html
