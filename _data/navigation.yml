@@ -110,3 +110,9 @@ docs-zh:
     url: https://jialiangbujiaj1a.github.io/2020/03/12/Java内存模型.html
   - title:  Java并发之ThreadLocal
     url: https://jialiangbujiaj1a.github.io/2020/08/27/Java并发之ThreadLocal.html
+  - title:  Java并发之ThreadLocal
+    url: https://jialiangbujiaj1a.github.io/2020/09/02/单元测试.html
+  - title:  Java并发之ThreadLocal
+    url: https://jialiangbujiaj1a.github.io/2020/11/09/Spring中的bean线程安全问题.html
+  - title:  Java并发之ThreadLocal
+    url: https://jialiangbujiaj1a.github.io/2020/11/10/优雅的转换Bean对象.html
