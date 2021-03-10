@@ -183,7 +183,7 @@ Java 6 中引入了偏向锁来做进一步优化：只有第一次使用 CAS �
 
 **特点**
 
-- 用 state 属性来表示资源的状态（分独占模式和共享模式），子类需要定义如何维护这个状态，控制如何获取锁和释放锁。 getState - 获取 state 状态，setState - 设置 state 状态，compareAndSetState - cas 机制设置 state 状态，独占模式是只有一个线程能够访问资源，而共享模式可以允许多个线程访问资源
+- 用volatile修饰的state属性来表示资源的状态（分独占模式和共享模式），子类需要定义如何维护这个状态，控制如何获取锁和释放锁。 getState - 获取 state 状态，setState - 设置 state 状态，compareAndSetState - cas 机制设置 state 状态，独占模式是只有一个线程能够访问资源，而共享模式可以允许多个线程访问资源
 
 - 提供了基于 FIFO 的等待队列，队列头节点称作“哨兵节点”或者“哑节点”，它不与任何线程关联。其他的节点与等待线程关联，每个节点维护一个等待状态 waitStatus
 
