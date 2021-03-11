@@ -116,3 +116,9 @@ docs-zh:
     url: https://jialiangbujiaj1a.github.io/2020/11/09/Spring中的bean线程安全问题.html
   - title:  优雅的转换Bean对象
     url: https://jialiangbujiaj1a.github.io/2020/11/10/优雅的转换Bean对象.html
+  - title:  Java并发
+    url: https://jialiangbujiaj1a.github.io/2021/03/01/Java并发.html
+  - title:  RabbitMQ笔记
+    url: https://jialiangbujiaj1a.github.io/2021/03/05/RabbitMQ笔记.html
+  - title:  缓存和Redis
+    url: https://jialiangbujiaj1a.github.io/2021/03/09/缓存和Redis.html
