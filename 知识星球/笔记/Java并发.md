@@ -106,7 +106,7 @@ Synchronized可以保证方法或者代码块在运行时，同一时刻只有�
 
 **Monitor监视器** 每个对象头都可以关联一个Monitor对象，当用Synchronized给对象上锁后，对象头的 MarkWord 中的LockWord指向Monitor的起始地址
 
-刚开始 Monitor中Owner为null，当第一个线程执行synchronized(obj)就会将Monitor的所有者Owner置为自己，Monitor中只能有一个 Owner，如果其它线程也来执行 synchronized(obj)，就会进入阻塞队列 BLOCKED，当第一个线程执行完同步代码块的内容，然后唤醒阻塞队列中等待的线程来竞争锁，竞争的时是非公平的
+**流程** 刚开始 Monitor中Owner为null，当第一个线程执行synchronized(obj)就会将Monitor的所有者Owner置为自己，Monitor中只能有一个 Owner，如果其它线程也来执行 synchronized(obj)，就会进入阻塞队列 BLOCKED，当第一个线程执行完同步代码块的内容，然后唤醒阻塞队列中等待的线程来竞争锁，竞争的时是非公平的
 
 **实现**
 
@@ -231,11 +231,21 @@ Java 6 中引入了偏向锁来做进一步优化：只有第一次使用 CAS �
 
 ## Semaphore/Countdownlatch/CycliBarrier
 
-**Semaphore** 信号量，用来限制同时访问共享资源的线程上限
+**Semaphore** 信号量，控制某一资源同时访问的线程数
 
-**Countdownlatch** 用来线程同步操作，等待所有线程完成倒计时，构造参数用来初始化等待计数值，await()用来等待计数归零，countDown()用来让计数减一
+**Countdownlatch** 初始化标记次数，await可使当前线程阻塞，调用countDown使标记次数减1，当标记次数为0时，唤醒阻塞的线程。适合在主线程需要等待子线程执行完毕后在执行或者需要等待某些资源的时候。
 
-**CyclicBarrier** 循环栅栏，用来进行线程协调，等待线程满足某个计数，构造时设置计数个数，每个线程执行到某个需要同步的时刻调用await()等待，当等待的线程数满足计数个数时，继续执行。
+**CyclicBarrier** 循环栅栏，初始化时标记线程数，每个线程执行到某个需要同步的时刻调用await()等待，当启动的线程数达到标记线程数，则并发执行。适合需要线程相互等待对方完成时，比如多线程计算，在对计算结果进行汇总。
+
+## 阻塞队列
+
+阻塞队列是一个支持两个附加操作的队列
+
+- 队列为空时，获取队列元素的线程会等待队列变为非空
+
+- 队列已满时，存储元素的线程会等待队列可用
+
+**场景** Socket客户端数据的读取和解析，读取数据的线程不断的将数据放入队列，解析数据的线程不断的从队列取数据解析
 
 
 
