@@ -28,6 +28,10 @@ jar包和Dockerfile文件放在同一目录下
 
 ### 制作镜像
 
+```
+docker build -f dockerfile文件路径 -t 镜像名称:版本
+```
+
 docker build -t eureka .
 
 ![docker](https://jialiangbujiaj1a.github.io/imgs/docker/dockerbuild.png)
