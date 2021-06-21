@@ -54,10 +54,6 @@ header:
 docs-zh:
 - title:      导航
   children:
-  - title: Welcome
-    url: https://jialiangbujiaj1a.github.io/2018/07/01/welcome.html
-  - title: Post with Header Image
-    url: https://jialiangbujiaj1a.github.io/2018/06/01/header-image.html
   - title:  Markdown(.md)语法
     url: https://jialiangbujiaj1a.github.io/2020/01/17/Markdown语法.html
   - title:  重试机制Retry的使用
@@ -78,8 +74,6 @@ docs-zh:
     url: https://jialiangbujiaj1a.github.io/2020/02/02/Docker.html
   - title:  Linux
     url: https://jialiangbujiaj1a.github.io/2020/02/02/Linux.html
-  - title:  Docker部署SpringBoot项目
-    url: https://jialiangbujiaj1a.github.io/2020/02/11/Docker部署SpringBoot项目.html
   - title:  Nginx
     url: https://jialiangbujiaj1a.github.io/2020/02/12/Nginx.html
   - title:  SSO单点登录
